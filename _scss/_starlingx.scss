@@ -1,0 +1,76 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  background: url('/img/bkgd.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	color: $type;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: 500;
+	margin: 6rem 0 2rem;
+	color: $headings;
+}
+p {
+	color: $type;
+	font-size: 0.95em;
+	margin: 0 0 20px;
+}
+a {
+	text-decoration: underline;
+	color: $headings;
+	word-wrap:break-word;
+	&:hover, &:focus {
+		color: #ffffff;
+	}
+}
+.main-content {
+	background: rgba($color: #0B577A, $alpha: 0.9);
+	min-height: 100vh;
+	padding: 3rem 7rem;
+}
+.centered-logo {
+	text-align: center;
+	width: 100%;
+}
+.brand {
+	margin: 2rem auto 0;
+}
+.quote-wrapper {
+	text-align: center;
+}
+.quote {
+	color: $type;
+	font-size: 1em;
+	line-height: 1em;
+	margin-top: 30px;
+	padding: 2rem 0;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.main-button {
+	background: $mainbtn;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.1875rem 6rem;
+	font-size: 1.25rem;
+	line-height: 2;
+	border-radius: 4px;
+	white-space: nowrap;
+	&:hover, &:focus {
+		background: $mainbtnhover;
+		color: white;
+		text-decoration: none;
+	}
+}
+.bird-wrapper {
+	margin: 60px 0 0;
+	text-align: center;
+}
+.bird {
+	width: 49px;
+}

@@ -1,0 +1,5 @@
+# general settings
+name: Airship landing
+markdown: kramdown
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
