@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-  background: url('/img/bkgd.jpg') no-repeat center center fixed; 
+  background: url('/img/bkgd.jpg') no-repeat bottom center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,7 +30,7 @@ a {
 .main-content {
 	background: rgba($color: #0B577A, $alpha: 0.9);
 	min-height: 100vh;
-	padding: 3rem 7rem;
+	padding: 3rem;
 }
 .centered-logo {
 	text-align: center;
@@ -38,6 +38,7 @@ a {
 }
 .brand {
 	margin: 2rem auto 0;
+	max-width: 100%;
 }
 .quote-wrapper {
 	text-align: center;

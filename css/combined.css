@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: url("/img/bkgd.jpg") no-repeat center center fixed;
+  background: url("/img/bkgd.jpg") no-repeat bottom center fixed;
   background-size: cover;
   color: #ffffff; }
 
@@ -26,14 +26,15 @@ a {
 .main-content {
   background: rgba(11, 87, 122, 0.9);
   min-height: 100vh;
-  padding: 3rem 7rem; }
+  padding: 3rem; }
 
 .centered-logo {
   text-align: center;
   width: 100%; }
 
 .brand {
-  margin: 2rem auto 0; }
+  margin: 2rem auto 0;
+  max-width: 100%; }
 
 .quote-wrapper {
   text-align: center; }
