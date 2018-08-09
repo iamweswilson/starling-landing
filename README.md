@@ -1,1 +1,1 @@
-# airship-landing
+# starlingx-landing
