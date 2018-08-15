@@ -1,0 +1,14 @@
+#
+# YAML file that populates the announcement bar
+#
+# Each item begins with a dash and needs an id, title, and link.
+# subnav is an optional collection of items that will appear in a pulldown menu
+#
+#
+# display: true to show the announcement bar
+
+- display: true
+  image: /img/summit-arrows.svg
+  message: Meet the StarlingX Community at the OpenStack Summit, November 13-15 in Berlin, Germany!
+  cta: Learn More
+  link: //openstack.org/summit

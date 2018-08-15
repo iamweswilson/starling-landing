@@ -40,11 +40,17 @@
 
 </head>
 
-<body>
-
-<!-- Page Header -->
 <body id="page-top" class="index">
 
+<!-- Announcement Bar -->
+{% assign displayBar = site.data.announcement | where: "display", true %}
+{% for announcement in displayBar %}
+<div class="announcement-bar">
+		<img src="{{ announcement.image }}" class="announcement-bar-logo" alt="">
+			{{ announcement.message }}
+			<a href="{{ announcement.link }}" class="announcement-bar-cta">{{ announcement.cta }}</a>  
+	</div>
+	{% endfor %}
 
     <!-- Begin Page Content -->
     {{ content }}
