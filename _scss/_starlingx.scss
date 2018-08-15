@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background: linear-gradient(0deg,rgba(104,91,199,0.7),rgba(104,91,199,0.7)),url('/img/bkgd.jpg') no-repeat bottom center fixed; 
+	background: url('/img/bkgd-p.jpg') no-repeat bottom center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,16 +21,19 @@ p {
 }
 a {
 	text-decoration: underline;
-	color: $headings;
+	color: $links;
 	word-wrap:break-word;
 	&:hover, &:focus {
 		color: #ffffff;
 	}
 }
 .main-content {
-	background: rgba($color: #330072, $alpha: 0.8);
-	min-height: 100vh;
+	background: white;
+	min-height: 90vh;
 	padding: 3rem 5rem;
+	margin-bottom: 5rem;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
 }
 .centered-logo {
 	text-align: center;
@@ -45,12 +48,12 @@ a {
 	text-align: left;
 }
 .quote {
-	color: white;
+	color: $headings;
 	font-size: 1.7em;
 	line-height: 1.3em;
 	margin-top: 4rem;
-	padding: 2rem 0;
-	font-weight: 300;
+	padding: 2rem 0 0;
+	font-weight: 400;
 }
 .main-button {
 	background: $mainbtn;
@@ -69,7 +72,7 @@ a {
 	}
 }
 .bird-wrapper {
-	margin: 60px 0 0;
+	margin: 80px 0 10px;
 	text-align: center;
 }
 .bird {
@@ -99,6 +102,7 @@ a {
 .announcement-bar-cta {
 	background: transparent;
 	border: 1px solid white;
+	color: white;
 	border-radius: 4px;
 	padding: 3px 10px;
 	text-transform: uppercase;
@@ -109,6 +113,7 @@ a {
 	&:hover, &:focus {
 		background: rgba($color: #ffffff, $alpha: 0.2);
 		text-decoration: none;
+		color: white;
 	}
 }
 @media (max-width:767px) {
