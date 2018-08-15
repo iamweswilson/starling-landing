@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-  background: url('/img/bkgd.jpg') no-repeat bottom center fixed; 
+	background: linear-gradient(0deg,rgba(104,91,199,0.7),rgba(104,91,199,0.7)),url('/img/bkgd.jpg') no-repeat bottom center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@ h2 {
 }
 p {
 	color: $type;
-	font-size: 0.95em;
+	font-size: 1em;
 	margin: 0 0 20px;
 }
 a {
@@ -28,9 +28,9 @@ a {
 	}
 }
 .main-content {
-	background: rgba($color: #0B577A, $alpha: 0.9);
+	background: rgba($color: #330072, $alpha: 0.8);
 	min-height: 100vh;
-	padding: 3rem;
+	padding: 3rem 5rem;
 }
 .centered-logo {
 	text-align: center;
@@ -39,18 +39,18 @@ a {
 .brand {
 	margin: 2rem auto 0;
 	max-width: 100%;
+	width: 300px;
 }
 .quote-wrapper {
-	text-align: center;
+	text-align: left;
 }
 .quote {
-	color: $type;
-	font-size: 1em;
-	line-height: 1em;
-	margin-top: 30px;
+	color: white;
+	font-size: 1.7em;
+	line-height: 1.3em;
+	margin-top: 4rem;
 	padding: 2rem 0;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	font-weight: 300;
 }
 .main-button {
 	background: $mainbtn;
